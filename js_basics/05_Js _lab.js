@@ -7,7 +7,9 @@ let isLoggedIn = true;
 
 let UserProfile = "PascalCase";
 let ShoppingCart = "class name style";//pascalcase
-
+function CalculateTotal() {
+    // function body
+} //pascalcase
 let user_name = "snake_case";
 let total_price = 49.99;
 let is_logged_in = false; //snake_case
