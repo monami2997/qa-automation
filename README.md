@@ -7,6 +7,8 @@ This repository contains automation scripts and resources for QA testing, primar
 - `js_basics/`: Contains basic JavaScript files and lab exercises
   - `Day_1.js`: Introduction to JavaScript basics
   - `05_Js _lab.js`: JavaScript lab exercises
+  - `health_report.js`: CI build health reporter based on passed test percentage
+  - `login_attempt.js`: Failed login tracker with account lockout after 3 tries
   - `vscode_shortcuts.md`: VS Code keyboard shortcuts for Windows
 
 - `.vscode/`: VS Code settings and configurations
@@ -33,6 +35,8 @@ This repository contains automation scripts and resources for QA testing, primar
 - Run JavaScript files using Node.js:
   ```bash
   node js_basics/Day_1.js
+  node js_basics/health_report.js 95
+  node js_basics/login_attempt.js 3
   ```
 
 - For Playwright tests (if added in the future):
