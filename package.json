@@ -1,0 +1,25 @@
+{
+  "name": "playwright-2x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "install:browsers": "npx playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monami2997/qa-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/monami2997/qa-automation/issues"
+  },
+  "homepage": "https://github.com/monami2997/qa-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}
